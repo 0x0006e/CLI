@@ -4,9 +4,11 @@
   "description": "cli",
   "main": "index.js",
   "bin": {
-    "cli": "index.js"
+    "cli": "build/index.js"
   },
   "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
