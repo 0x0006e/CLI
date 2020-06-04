@@ -1,10 +1,10 @@
 {
-  "name": "@0x0006e/cli",
+  "name": "mycli",
   "version": "0.0.4",
   "description": "cli",
   "main": "index.js",
   "bin": {
-    "myCli": "build/index.js"
+    "cli": "build/index.js"
   },
   "scripts": {
     "start": "tsc -w",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/0x0006e/cli/issues"
   },
-  "homepage": "https://github.com/0x0006e/cli#readme"
+  "homepage": "https://github.com/0x0006e/cli#readme",
+  "dependencies": {
+    "commander": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.10"
+  }
 }
